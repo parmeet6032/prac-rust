@@ -1,0 +1,22 @@
+rustup update
+
+cargo new <project_name>
+cd <project_name>
+
+cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/hello-world`
+Hello, world!
+
+cargo run --release
+    Finished release [optimized] target(s) in 0.00s
+     Running `target/release/hello-world`
+Hello, world!
+
+// INDENTATION FIX
+mkdir ~/.config/rustfmt && cd "$_"
+touch rustfmt.toml && echo "tab_spaces=2" > rustfmt.toml
+
+// USEFUL LINKS
+https://rust-lang.github.io/rustfmt/
+https://rust-analyzer.github.io/
