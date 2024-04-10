@@ -6,7 +6,7 @@ fn main() {
   println!("{s1}"); // error[E0382]: borrow of moved value: `s1`
 }
 /**
- * varible x
+ * variable x
  * immutable reference &x
  * mutable reference &mut x
  * x: &mut i32
